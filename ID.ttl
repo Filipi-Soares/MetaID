@@ -4,7 +4,7 @@
 @prefix sdo: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://example.org/resource/CepeaAcucarSantos> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L7> a dcat:Dataset ;
     dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/acucar.aspx> ;
     dcat:accrualPeriodicity "diário"^^xsd:string ;
     dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
@@ -23,7 +23,7 @@
     alm:statisticalMethod <https://www.cepea.esalq.usp.br/br/metodologia/metodologia-do-acucar-branco-cristal-esalq-bvmf-santos.aspx> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/CepeaAcucarSaoPaulo> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L26> a dcat:Dataset ;
     dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/acucar.aspx> ;
     dcat:accrualPeriodicity "diário"^^xsd:string ;
     dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
@@ -42,7 +42,7 @@
     alm:statisticalMethod <https://www.cepea.esalq.usp.br/br/metodologia/metodologia-do-acucar-cristal-branco-cepea-esalq-sao-paulo.aspx> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/CepeaBoiGordo> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L45> a dcat:Dataset ;
     dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/boi-gordo.aspx> ;
     dcat:accrualPeriodicity "diário"^^xsd:string ;
     dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
@@ -61,7 +61,7 @@
     alm:statisticalMethod <https://www.cepea.esalq.usp.br/br/metodologia/metodologia-boi-gordo.aspx> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/CepeaCafeArabica> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L64> a dcat:Dataset ;
     dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/cafe.aspx> ;
     dcat:accrualPeriodicity "diário"^^xsd:string ;
     dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
@@ -80,7 +80,7 @@
     alm:statisticalMethod <https://www.cepea.esalq.usp.br/br/metodologia/metodologia-cafe-arabica-cepea-esalq.aspx> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/CepeaCafeRobusta> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L83> a dcat:Dataset ;
     dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/cafe.aspx> ;
     dcat:accrualPeriodicity "diário"^^xsd:string ;
     dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
@@ -99,7 +99,7 @@
     alm:statisticalMethod <https://www.cepea.esalq.usp.br/br/metodologia/metodologia-cafe-robusta-cepea-esalq.aspx> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/CepeaSojaParana> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L102> a dcat:Dataset ;
     dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/soja.aspx> ;
     dcat:accrualPeriodicity "diário"^^xsd:string ;
     dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
@@ -118,7 +118,7 @@
     alm:statisticalMethod <https://www.cepea.esalq.usp.br/br/metodologia/metodologia-soja-cepea-esalq-parana.aspx> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/CepeaSojaParanagua> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L121> a dcat:Dataset ;
     dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/soja.aspx> ;
     dcat:accrualPeriodicity "diário"^^xsd:string ;
     dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
@@ -137,7 +137,7 @@
     alm:statisticalMethod <https://www.cepea.esalq.usp.br/br/metodologia/metodologia-da-soja-esalq-bm-fbovespa-paranagua.aspx> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarAL> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L140> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -156,7 +156,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarAM> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L159> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -175,7 +175,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarBA> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L178> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -194,7 +194,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarCE> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L197> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -213,7 +213,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarDF> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L216> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -232,7 +232,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarES> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L235> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -251,7 +251,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarGO> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L254> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -270,7 +270,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarMA> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L273> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -289,7 +289,7 @@
     alm:statisticalMethod <https://sisdep.conab.gov.br/precosiagroweb/> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarMG> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L292> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -308,7 +308,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarMS> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L311> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -327,7 +327,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarPA> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L330> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -346,7 +346,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarPB> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L349> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -365,7 +365,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarPE> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L368> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -384,7 +384,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarPI> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L387> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -403,7 +403,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarRN> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L406> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -422,7 +422,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarRO> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L425> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -441,7 +441,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarRR> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L444> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -460,7 +460,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarRS> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L463> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -479,7 +479,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarSE> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L482> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
@@ -498,7 +498,7 @@
     alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
     alm:theme "indicador de preço"^^xsd:string .
 
-<https://example.org/resource/ConabAcucarSP> a dcat:Dataset ;
+<https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L501> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
     dcat:accrualPeriodicity "mensal"^^xsd:string ;
     dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;

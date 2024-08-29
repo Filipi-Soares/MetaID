@@ -1,0 +1,1398 @@
+@prefix alm: <https://w3id.org/AlmesCore#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/resource/CepeaAcucarSantos> a dcat:Dataset ;
+    dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/acucar.aspx> ;
+    dcat:accrualPeriodicity "diário"^^xsd:string ;
+    dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dcat:description "Açúcar Cristal Branco - com mínimo de polarização de 99,7 graus, máximo de 0,10% de umidade, cor ICUMSA mais freqüente 130 - 180, máximo de 0,07% de cinzas, ensacado em sacas novas de polipropileno, destinado ao mercado interno."^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dcat:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
+    dcat:title "INDICADOR AÇÚCAR CRISTAL BRANCO ESALQ/BVMF - SANTOS"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/6322566/> ;
+    sdo:referenceQuantity "sc/50kg"^^xsd:string ;
+    sdo:startDate "2013-01-23"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.cepea.esalq.usp.br/br/metodologia/metodologia-do-acucar-branco-cristal-esalq-bvmf-santos.aspx> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/CepeaAcucarSaoPaulo> a dcat:Dataset ;
+    dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/acucar.aspx> ;
+    dcat:accrualPeriodicity "diário"^^xsd:string ;
+    dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dcat:description "Açúcar Cristal Branco - com mínimo de polarização de 99,7 graus, máximo de 0,10% de umidade, cor ICUMSA mais freqüente 130 - 180, máximo de 0,07% de cinzas, ensacado em sacas novas de polipropileno, destinado ao mercado interno."^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dcat:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
+    dcat:title "INDICADOR AÇÚCAR CRISTAL BRANCO CEPEA/ESALQ - SÃO PAULO"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/6324358/> ;
+    sdo:referenceQuantity "sc/50kg"^^xsd:string ;
+    sdo:startDate "2003-05-20"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.cepea.esalq.usp.br/br/metodologia/metodologia-do-acucar-cristal-branco-cepea-esalq-sao-paulo.aspx> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/CepeaBoiGordo> a dcat:Dataset ;
+    dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/boi-gordo.aspx> ;
+    dcat:accrualPeriodicity "diário"^^xsd:string ;
+    dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dcat:description "O Indicador do boi gordo CEPEA/B3 é uma média diária ponderada de preços por arroba à vista de boi gordo no estado de São Paulo, elaborado pelo Cepea (Centro de Estudos Avançados em Economia Aplicada), da Esalq/USP, em parceria com a B3. O Indicador é divulgado em todos os dias úteis, de forma ininterrupta, desde março de 1994. A média dos Indicadores dos últimos cinco dias úteis de um determinado mês é utilizada pela B3 para liquidar os contratos futuros de boi gordo lá negociados. Animais incluídos: Bovinos machos, com 16 (dezesseis) arrobas líquidas ou mais de carcaça e idade máxima de 42 (quarenta e dois) meses, advindos do Estado de São Paulo, de acordo com as especificações do contrato futuro de boi gordo da B3."^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dcat:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
+    dcat:title "INDICADOR DO BOI GORDO CEPEA/B3"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3448439/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "1997-07-23"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.cepea.esalq.usp.br/br/metodologia/metodologia-boi-gordo.aspx> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/CepeaCafeArabica> a dcat:Dataset ;
+    dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/cafe.aspx> ;
+    dcat:accrualPeriodicity "diário"^^xsd:string ;
+    dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dcat:description "Café arábica tipo 6, bebida dura para melhor, bem preparado, com até 86 defeitos por amostra de 300 gramas; Indicador refere-se a negócios no mercado de lotes."^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dcat:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
+    dcat:title "INDICADOR DO CAFÉ ARÁBICA CEPEA/ESALQ"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/6324358/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "1996-09-02"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_28379> ;
+    alm:statisticalMethod <https://www.cepea.esalq.usp.br/br/metodologia/metodologia-cafe-arabica-cepea-esalq.aspx> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/CepeaCafeRobusta> a dcat:Dataset ;
+    dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/cafe.aspx> ;
+    dcat:accrualPeriodicity "diário"^^xsd:string ;
+    dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dcat:description "Café robusta tipo 6, peneira 13 cima, com 86 defeitos; Indicador refere-se a negócios no mercado de lotes."^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dcat:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
+    dcat:title "INDICADOR DO CAFÉ ROBUSTA CEPEA/ESALQ"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3448439/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2001-11-08"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_28379> ;
+    alm:statisticalMethod <https://www.cepea.esalq.usp.br/br/metodologia/metodologia-cafe-robusta-cepea-esalq.aspx> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/CepeaSojaParana> a dcat:Dataset ;
+    dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/soja.aspx> ;
+    dcat:accrualPeriodicity "diário"^^xsd:string ;
+    dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dcat:description "Soja em grão a granel, tipo exportação, conforme padrão Concex: até 14% de umidade, até 2% de impurezas, e limites máximos de 8% para grãos avariados (até 5% de ardidos) e 30% de grãos quebrados; Indicador se refere a negócios no mercado de lotes (entre empresas); a retirar na empresa/armazém de venda; Estado do Paraná, dividido em cinco regiões: Paranaguá, Ponta Grossa, Norte,Oeste e Sudoeste."^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dcat:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
+    dcat:title "INDICADOR DA SOJA CEPEA/ESALQ - PARANÁ"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3455077/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "1997-07-29"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_14477> ;
+    alm:statisticalMethod <https://www.cepea.esalq.usp.br/br/metodologia/metodologia-soja-cepea-esalq-parana.aspx> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/CepeaSojaParanagua> a dcat:Dataset ;
+    dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/soja.aspx> ;
+    dcat:accrualPeriodicity "diário"^^xsd:string ;
+    dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dcat:description "Soja brasileira em grão a granel tipo exportação. Produto posto no porto de Paranaguá, estado do Paraná, nas condições DAP (Delivered at Place) no pátio ou FAS (Free Alongside Ship) em armazéns/silos que efetuem carregamento de navios via corredor de exportação no porto de Paranaguá."^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dcat:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
+    dcat:title "INDICADOR DA SOJA ESALQ/BM&FBOVESPA - PARANAGUÁ"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/6322906/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2006-03-13"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_14477> ;
+    alm:statisticalMethod <https://www.cepea.esalq.usp.br/br/metodologia/metodologia-da-soja-esalq-bm-fbovespa-paranagua.aspx> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarAL> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas."^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3408096/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "nan"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarAM> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3665361/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "nan"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarBA> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3471168/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarCE> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3402362/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarDF> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3463504/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "nan"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarES> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3463935/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "2015-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarGO> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3462372/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "nan"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarMA> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas."^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3395443/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarMG> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3457153/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "2015-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarMS> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3457419/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "nan"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarPA> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3393129/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "nan"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarPB> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3393098/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "nan"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarPE> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3392268/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "2016-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarPI> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3392213/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "2018-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarRN> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3390290/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "2016-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarRO> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3924825/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "nan"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarRR> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3662560/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "nan"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarRS> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3451133/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "nan"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarSE> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3447799/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "nan"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarSP> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3448439/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "nan"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabAcucarTO> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3474575/> ;
+    sdo:referenceQuantity "sc/30kg"^^xsd:string ;
+    sdo:startDate "nan"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <https://w3id.org/APTO#Sucroenergetico> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_16477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoAC> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3665474/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoAL> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3408096/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoBA> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3471168/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2015-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoCE> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3402362/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoDF> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3463504/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoES> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3463935/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoGO> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3462372/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoMG> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3457153/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoMS> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3457415/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoMT> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3457419/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoPA> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3393129/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2015-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoPB> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3393098/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoPE> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3392268/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoPR> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3455077/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2015-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoRJ> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3451189/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoRN> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3390290/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoSE> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3447799/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoSP> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3448439/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiGordoTO> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3474575/> ;
+    sdo:referenceQuantity "15kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_gordo> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabBoiMagroTO> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "semanal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios semanais - boi magro - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3474575/> ;
+    sdo:referenceQuantity "Cabeça"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <https://w3id.org/APTO#Boi_magro> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabCafeArabicaBA> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3471168/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_28379> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabCafeArabicaCE> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3402362/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_28379> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabCafeArabicaDF> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3463504/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_28379> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabCafeArabicaES> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3463935/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_28379> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabCafeArabicaGO> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3462372/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_28379> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabCafeArabicaMG> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3457153/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_28379> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabCafeArabicaMS> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3457415/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_28379> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabCafeArabicaPR> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3455077/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_28379> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabCafeArabicaRJ> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3451189/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_28379> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabCafeArabicaSP> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3448439/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_28379> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabCafeConillonAC> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - café conillon - produtor"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3665474/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2014-01-11"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_28379> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabSojaMS> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - soja em grãos - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3457419/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_14477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabSojaPR> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - soja em grãos - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3455077/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_14477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabSojaRS> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - soja em grãos - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3451133/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_14477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/ConabSojaSC> a dcat:Dataset ;
+    dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:description "nan"^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dcat:title "Preços médios mensais - soja em grãos - atacado"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3450387/> ;
+    sdo:referenceQuantity "sc/60kg"^^xsd:string ;
+    sdo:startDate "2014-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3346> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_14477> ;
+    alm:statisticalMethod <https://www.conab.gov.br/images/arquivos/normativos/20000_sistema_institucional_planejamento/20.604_NOC_res_6_8_3_2023_VF.pdf> ;
+    alm:theme "indicador de preço"^^xsd:string .
+
+<https://example.org/resource/IpeaCouro> a dcat:Dataset ;
+    dcat:accessURL <http://www.ipeadata.gov.br/Default.aspx> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dcat:description " O indicador de consumo aparente corresponde à produção doméstica acrescida das importações e diminuída das exportações. Os setores foram desagregados de acordo com a Classificação Nacional de Atividades Econômicas CNAE 2.0. Neste caso, considerou-se o setor responsável pela produção dos bens que compreendem o curtimento e outras preparações de couros e peles e a fabricação de artefatos de couro, a fabricação de substitutos do couro, a fabricação de bolsas e de artigos para viagem de qualquer material. Base é o valor, num determinado momento ( efetivo ou resultante da média tomada dentro de um intervalo de tempo) que serve de termo de comparação, quando se quer calcular uma sucessão de números-índices. Aqui a base foi fixada como a média das observações no ano de 2012. Nota: As atualizações podem gerar alterações em dados anteriores. Mais informações: Indicadores de Consumo Aparente de Bens Industriais: metodologia e resultados; CNAE 2.0 e Rodrigues, Dicionário Brasileiro de Estatística, 2ª edição, Fundação IBGE, 1970."^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcat:publisher "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dcat:rights "Os dados disponibilizados no Ipeadata são de uso público. É permitida sua reprodução e utilização em tabelas, gráficos, mapas e textos, desde que o Ipeadata seja citado, inclusive nas referências bibliográficas."^^xsd:string ;
+    dcat:title "Consumo aparente - couros e de artefatos de couro, artigos para viagem e calçados: índice real encadeado (média 2012 = 100) (GAC12_CACOU12)"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3469034/> ;
+    sdo:referenceQuantity "nan"^^xsd:string ;
+    sdo:startDate "1998-01-04"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_438> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_4241> ;
+    alm:statisticalMethod <http://www.ipeadata.gov.br/doc/td_2101.pdf> ;
+    alm:theme "indicador de consumo aparente"^^xsd:string .
+
+<https://example.org/resource/IpeaFumo> a dcat:Dataset ;
+    dcat:accessURL <http://www.ipeadata.gov.br/Default.aspx> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dcat:description "O indicador de consumo aparente corresponde à produção doméstica acrescida das importações e diminuída das exportações. Os setores foram desagregados de acordo com a Classificação Nacional de Atividades Econômicas CNAE 2.0. Neste caso, considerou-se o setor responsável pela produção dos bens que compreendem a fabricação de cigarros, cigarrilhas e outros derivados do fumo Base é o valor, num determinado momento ( efetivo ou resultante da média tomada dentro de um intervalo de tempo) que serve de termo de comparação, quando se quer calcular uma sucessão de números-índices. Aqui a base foi fixada como a média das observações no ano de 2012. Nota: As atualizações podem gerar alterações em dados anteriores. Mais informações: Indicadores de Consumo Aparente de Bens Industriais: metodologia e resultados; CNAE 2.0 e Rodrigues, Dicionário Brasileiro de Estatística, 2ª edição, Fundação IBGE, 1970."^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcat:publisher "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dcat:rights "Os dados disponibilizados no Ipeadata são de uso público. É permitida sua reprodução e utilização em tabelas, gráficos, mapas e textos, desde que o Ipeadata seja citado, inclusive nas referências bibliográficas."^^xsd:string ;
+    dcat:title "Consumo aparente - produtos de fumo: índice real encadeado (média 2012 = 100) (GAC12_CAFUM12)"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3469034/> ;
+    sdo:referenceQuantity "nan"^^xsd:string ;
+    sdo:startDate "1998-01-03"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_7413> ;
+    alm:productType <https://sistemas.sede.embrapa.br/agrotermos/resources/6c577516edc7117699a72d620847be73> ;
+    alm:statisticalMethod <http://www.ipeadata.gov.br/doc/td_2101.pdf> ;
+    alm:theme "indicador de consumo aparente"^^xsd:string .
+
+<https://example.org/resource/IpeaMadeira> a dcat:Dataset ;
+    dcat:accessURL <http://www.ipeadata.gov.br/Default.aspx> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dcat:description "O indicador de consumo aparente corresponde à produção doméstica acrescida das importações e diminuída das exportações. Os setores foram desagregados de acordo com a Classificação Nacional de Atividades Econômicas CNAE 2.0. Neste caso, considerou-se o setor responsável pela produção dos bens que compreendem a fabricação de madeira serrada, laminada, compensada, prensada e aglomerada e de produtos de madeira para construção, para embalagem, para uso industrial, comercial e doméstico. Base é o valor, num determinado momento ( efetivo ou resultante da média tomada dentro de um intervalo de tempo) que serve de termo de comparação, quando se quer calcular uma sucessão de números-índices. Aqui a base foi fixada como a média das observações no ano de 2012. Nota: As atualizações podem gerar alterações em dados anteriores. Mais informações: Indicadores de Consumo Aparente de Bens Industriais: metodologia e resultados; CNAE 2.0 e Rodrigues, Dicionário Brasileiro de Estatística, 2ª edição, Fundação IBGE, 1970."^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcat:publisher "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dcat:rights "Os dados disponibilizados no Ipeadata são de uso público. É permitida sua reprodução e utilização em tabelas, gráficos, mapas e textos, desde que o Ipeadata seja citado, inclusive nas referências bibliográficas."^^xsd:string ;
+    dcat:title "Consumo aparente - produtos de madeira: índice real encadeado (média 2012 = 100) (GAC12_CAMAD12)"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3469034/> ;
+    sdo:referenceQuantity "nan"^^xsd:string ;
+    sdo:startDate "1998-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3049> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_8421> ;
+    alm:statisticalMethod <http://www.ipeadata.gov.br/doc/td_2101.pdf> ;
+    alm:theme "indicador de consumo aparente"^^xsd:string .
+
+<https://example.org/resource/IpeaPapel> a dcat:Dataset ;
+    dcat:accessURL <http://www.ipeadata.gov.br/Default.aspx> ;
+    dcat:accrualPeriodicity "mensal"^^xsd:string ;
+    dcat:creator "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dcat:description "O indicador de consumo aparente corresponde à produção doméstica acrescida das importações e diminuída das exportações. Os setores foram desagregados de acordo com a Classificação Nacional de Atividades Econômicas CNAE 2.0. Neste caso, considerou-se o setor responsável pela produção dos bens que compreendem a fabricação de polpa, papel, papel-cartão e papelão e de produtos fabricados com papel, papel-cartão ou papelão ondulado, mesmo impressos, desde que a impressão de informação não seja a finalidade principal do produto. Base é o valor, num determinado momento ( efetivo ou resultante da média tomada dentro de um intervalo de tempo) que serve de termo de comparação, quando se quer calcular uma sucessão de números-índices. Aqui a base foi fixada como a média das observações no ano de 2012. Nota: As atualizações podem gerar alterações em dados anteriores. Mais informações: Indicadores de Consumo Aparente de Bens Industriais: metodologia e resultados; CNAE 2.0 e Rodrigues, Dicionário Brasileiro de Estatística, 2ª edição, Fundação IBGE, 1970."^^xsd:string ;
+    dcat:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcat:publisher "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dcat:rights "Os dados disponibilizados no Ipeadata são de uso público. É permitida sua reprodução e utilização em tabelas, gráficos, mapas e textos, desde que o Ipeadata seja citado, inclusive nas referências bibliográficas."^^xsd:string ;
+    dcat:title "Consumo aparente - celulose, papel e produtos de papel: índice real encadeado (média 2012 = 100) (GAC12_CAPAPEL12)"^^xsd:string ;
+    sdo:endDate "nan"^^xsd:date ;
+    sdo:location <http://sws.geonames.org/3469034/> ;
+    sdo:referenceQuantity "nan"^^xsd:string ;
+    sdo:startDate "1998-01-01"^^xsd:date ;
+    alm:descriptiveStatistics "série temporal"^^xsd:string ;
+    alm:productGroup <http://aims.fao.org/aos/agrovoc/c_3049> ;
+    alm:productType <http://aims.fao.org/aos/agrovoc/c_5548> ;
+    alm:statisticalMethod <http://www.ipeadata.gov.br/doc/td_2101.pdf> ;
+    alm:theme "indicador de consumo aparente"^^xsd:string .
+
+<http://sws.geonames.org/3392213/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3392213/> ;
+    gn:name "Piauí"^^xsd:string .
+
+<http://sws.geonames.org/3395443/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3395443/> ;
+    gn:name "Maranhão"^^xsd:string .
+
+<http://sws.geonames.org/3450387/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3450387/> ;
+    gn:name "Santa Catarina"^^xsd:string .
+
+<http://sws.geonames.org/3662560/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3662560/> ;
+    gn:name "Roraima"^^xsd:string .
+
+<http://sws.geonames.org/3665361/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3665361/> ;
+    gn:name "Amazonas"^^xsd:string .
+
+<http://sws.geonames.org/3924825/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3924825/> ;
+    gn:name "Rondônia"^^xsd:string .
+
+<http://sws.geonames.org/6322566/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/6322566/> ;
+    gn:name "Santos"^^xsd:string .
+
+<http://sws.geonames.org/6322906/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/6322906/> ;
+    gn:name "Paranaguá"^^xsd:string .
+
+<http://sws.geonames.org/3390290/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3390290/> ;
+    gn:name "Rio Grande do Norte"^^xsd:string .
+
+<http://sws.geonames.org/3392268/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3392268/> ;
+    gn:name "Pernambuco"^^xsd:string .
+
+<http://sws.geonames.org/3393098/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3393098/> ;
+    gn:name "Paraíba"^^xsd:string .
+
+<http://sws.geonames.org/3393129/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3393129/> ;
+    gn:name "Pará"^^xsd:string .
+
+<http://sws.geonames.org/3408096/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3408096/> ;
+    gn:name "Alagoas"^^xsd:string .
+
+<http://sws.geonames.org/3447799/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3447799/> ;
+    gn:name "Sergipe"^^xsd:string .
+
+<http://sws.geonames.org/3451133/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3451133/> ;
+    gn:name "Rio Grande do Sul"^^xsd:string .
+
+<http://sws.geonames.org/3451189/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3451189/> ;
+    gn:name "Rio de Janeiro"^^xsd:string .
+
+<http://sws.geonames.org/3457415/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3457415/> ;
+    gn:name "Mato Grosso do Sul"^^xsd:string .
+
+<http://sws.geonames.org/3665474/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3665474/> ;
+    gn:name "Acre"^^xsd:string .
+
+<http://sws.geonames.org/6324358/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/6324358/> ;
+    gn:name "São Paulo"^^xsd:string .
+
+<http://sws.geonames.org/3402362/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3402362/> ;
+    gn:name "Ceará"^^xsd:string .
+
+<http://sws.geonames.org/3457153/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3457153/> ;
+    gn:name "Minas Gerais"^^xsd:string .
+
+<http://sws.geonames.org/3457419/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3457419/> ;
+    gn:name "Mato Grosso"^^xsd:string .
+
+<http://sws.geonames.org/3462372/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3462372/> ;
+    gn:name "Goiás"^^xsd:string .
+
+<http://sws.geonames.org/3463504/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3463504/> ;
+    gn:name "Federal District"^^xsd:string .
+
+<http://sws.geonames.org/3463935/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3463935/> ;
+    gn:name "Espírito Santo"^^xsd:string .
+
+<http://sws.geonames.org/3471168/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3471168/> ;
+    gn:name "Bahia"^^xsd:string .
+
+<http://sws.geonames.org/3474575/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3474575/> ;
+    gn:name "Tocantins"^^xsd:string .
+
+<http://sws.geonames.org/3455077/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3455077/> ;
+    gn:name "Paraná"^^xsd:string .
+
+<http://sws.geonames.org/3469034/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3469034/> ;
+    gn:name "Brazil"^^xsd:string .
+
+<http://sws.geonames.org/3448439/> a gn:Feature ;
+    gn:geonamesID <http://sws.geonames.org/3448439/> ;
+    gn:name "São Paulo"^^xsd:string .

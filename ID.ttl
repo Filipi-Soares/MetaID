@@ -1,9 +1,9 @@
 @prefix alm: <https://w3id.org/AlmesCore#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix sdo: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L7> a dcat:Dataset ;
     dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/acucar.aspx> ;
     dct:accrualPeriodicity "diário"^^xsd:string ;
@@ -1276,123 +1276,3 @@
     alm:productType <http://aims.fao.org/aos/agrovoc/c_5548> ;
     alm:statisticalMethod <http://www.ipeadata.gov.br/doc/td_2101.pdf> ;
     alm:theme "indicador de consumo aparente"^^xsd:string .
-
-<http://sws.geonames.org/3392213/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3392213/> ;
-    gn:name "Piauí"^^xsd:string .
-
-<http://sws.geonames.org/3395443/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3395443/> ;
-    gn:name "Maranhão"^^xsd:string .
-
-<http://sws.geonames.org/3450387/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3450387/> ;
-    gn:name "Santa Catarina"^^xsd:string .
-
-<http://sws.geonames.org/3662560/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3662560/> ;
-    gn:name "Roraima"^^xsd:string .
-
-<http://sws.geonames.org/3665361/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3665361/> ;
-    gn:name "Amazonas"^^xsd:string .
-
-<http://sws.geonames.org/3924825/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3924825/> ;
-    gn:name "Rondônia"^^xsd:string .
-
-<http://sws.geonames.org/6322566/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/6322566/> ;
-    gn:name "Santos"^^xsd:string .
-
-<http://sws.geonames.org/6322906/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/6322906/> ;
-    gn:name "Paranaguá"^^xsd:string .
-
-<http://sws.geonames.org/3390290/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3390290/> ;
-    gn:name "Rio Grande do Norte"^^xsd:string .
-
-<http://sws.geonames.org/3392268/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3392268/> ;
-    gn:name "Pernambuco"^^xsd:string .
-
-<http://sws.geonames.org/3393098/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3393098/> ;
-    gn:name "Paraíba"^^xsd:string .
-
-<http://sws.geonames.org/3393129/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3393129/> ;
-    gn:name "Pará"^^xsd:string .
-
-<http://sws.geonames.org/3408096/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3408096/> ;
-    gn:name "Alagoas"^^xsd:string .
-
-<http://sws.geonames.org/3447799/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3447799/> ;
-    gn:name "Sergipe"^^xsd:string .
-
-<http://sws.geonames.org/3451133/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3451133/> ;
-    gn:name "Rio Grande do Sul"^^xsd:string .
-
-<http://sws.geonames.org/3451189/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3451189/> ;
-    gn:name "Rio de Janeiro"^^xsd:string .
-
-<http://sws.geonames.org/3457415/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3457415/> ;
-    gn:name "Mato Grosso do Sul"^^xsd:string .
-
-<http://sws.geonames.org/3665474/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3665474/> ;
-    gn:name "Acre"^^xsd:string .
-
-<http://sws.geonames.org/6324358/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/6324358/> ;
-    gn:name "São Paulo"^^xsd:string .
-
-<http://sws.geonames.org/3402362/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3402362/> ;
-    gn:name "Ceará"^^xsd:string .
-
-<http://sws.geonames.org/3457153/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3457153/> ;
-    gn:name "Minas Gerais"^^xsd:string .
-
-<http://sws.geonames.org/3457419/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3457419/> ;
-    gn:name "Mato Grosso"^^xsd:string .
-
-<http://sws.geonames.org/3462372/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3462372/> ;
-    gn:name "Goiás"^^xsd:string .
-
-<http://sws.geonames.org/3463504/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3463504/> ;
-    gn:name "Distrito Federal"^^xsd:string .
-
-<http://sws.geonames.org/3463935/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3463935/> ;
-    gn:name "Espírito Santo"^^xsd:string .
-
-<http://sws.geonames.org/3471168/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3471168/> ;
-    gn:name "Bahia"^^xsd:string .
-
-<http://sws.geonames.org/3474575/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3474575/> ;
-    gn:name "Tocantins"^^xsd:string .
-
-<http://sws.geonames.org/3455077/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3455077/> ;
-    gn:name "Paraná"^^xsd:string .
-
-<http://sws.geonames.org/3469034/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3469034/> ;
-    gn:name "Brazil"^^xsd:string .
-
-<http://sws.geonames.org/3448439/> a gn:Feature ;
-    gn:geonamesID <http://sws.geonames.org/3448439/> ;
-    gn:name "São Paulo"^^xsd:string .

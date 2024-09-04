@@ -1,17 +1,17 @@
 @prefix alm: <https://w3id.org/AlmesCore#> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix gn: <http://www.geonames.org/ontology#> .
 @prefix sdo: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L7> a dcat:Dataset ;
     dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/acucar.aspx> ;
-    dcat:accrualPeriodicity "diário"^^xsd:string ;
-    dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
-    dcat:description "Açúcar Cristal Branco - com mínimo de polarização de 99,7 graus, máximo de 0,10% de umidade, cor ICUMSA mais freqüente 130 - 180, máximo de 0,07% de cinzas, ensacado em sacas novas de polipropileno, destinado ao mercado interno."^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
-    dcat:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
+    dct:accrualPeriodicity "diário"^^xsd:string ;
+    dct:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dct:description "Açúcar Cristal Branco - com mínimo de polarização de 99,7 graus, máximo de 0,10% de umidade, cor ICUMSA mais freqüente 130 - 180, máximo de 0,07% de cinzas, ensacado em sacas novas de polipropileno, destinado ao mercado interno."^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dct:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
     dcat:title "INDICADOR AÇÚCAR CRISTAL BRANCO ESALQ/BVMF - SANTOS"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/6322566/> ;
@@ -25,12 +25,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L26> a dcat:Dataset ;
     dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/acucar.aspx> ;
-    dcat:accrualPeriodicity "diário"^^xsd:string ;
-    dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
-    dcat:description "Açúcar Cristal Branco - com mínimo de polarização de 99,7 graus, máximo de 0,10% de umidade, cor ICUMSA mais freqüente 130 - 180, máximo de 0,07% de cinzas, ensacado em sacas novas de polipropileno, destinado ao mercado interno."^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
-    dcat:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
+    dct:accrualPeriodicity "diário"^^xsd:string ;
+    dct:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dct:description "Açúcar Cristal Branco - com mínimo de polarização de 99,7 graus, máximo de 0,10% de umidade, cor ICUMSA mais freqüente 130 - 180, máximo de 0,07% de cinzas, ensacado em sacas novas de polipropileno, destinado ao mercado interno."^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dct:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
     dcat:title "INDICADOR AÇÚCAR CRISTAL BRANCO CEPEA/ESALQ - SÃO PAULO"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/6324358/> ;
@@ -44,12 +44,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L45> a dcat:Dataset ;
     dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/boi-gordo.aspx> ;
-    dcat:accrualPeriodicity "diário"^^xsd:string ;
-    dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
-    dcat:description "O Indicador do boi gordo CEPEA/B3 é uma média diária ponderada de preços por arroba à vista de boi gordo no estado de São Paulo, elaborado pelo Cepea (Centro de Estudos Avançados em Economia Aplicada), da Esalq/USP, em parceria com a B3. O Indicador é divulgado em todos os dias úteis, de forma ininterrupta, desde março de 1994. A média dos Indicadores dos últimos cinco dias úteis de um determinado mês é utilizada pela B3 para liquidar os contratos futuros de boi gordo lá negociados. Animais incluídos: Bovinos machos, com 16 (dezesseis) arrobas líquidas ou mais de carcaça e idade máxima de 42 (quarenta e dois) meses, advindos do Estado de São Paulo, de acordo com as especificações do contrato futuro de boi gordo da B3."^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
-    dcat:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
+    dct:accrualPeriodicity "diário"^^xsd:string ;
+    dct:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dct:description "O Indicador do boi gordo CEPEA/B3 é uma média diária ponderada de preços por arroba à vista de boi gordo no estado de São Paulo, elaborado pelo Cepea (Centro de Estudos Avançados em Economia Aplicada), da Esalq/USP, em parceria com a B3. O Indicador é divulgado em todos os dias úteis, de forma ininterrupta, desde março de 1994. A média dos Indicadores dos últimos cinco dias úteis de um determinado mês é utilizada pela B3 para liquidar os contratos futuros de boi gordo lá negociados. Animais incluídos: Bovinos machos, com 16 (dezesseis) arrobas líquidas ou mais de carcaça e idade máxima de 42 (quarenta e dois) meses, advindos do Estado de São Paulo, de acordo com as especificações do contrato futuro de boi gordo da B3."^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dct:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
     dcat:title "INDICADOR DO BOI GORDO CEPEA/B3"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3448439/> ;
@@ -63,12 +63,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L64> a dcat:Dataset ;
     dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/cafe.aspx> ;
-    dcat:accrualPeriodicity "diário"^^xsd:string ;
-    dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
-    dcat:description "Café arábica tipo 6, bebida dura para melhor, bem preparado, com até 86 defeitos por amostra de 300 gramas; Indicador refere-se a negócios no mercado de lotes."^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
-    dcat:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
+    dct:accrualPeriodicity "diário"^^xsd:string ;
+    dct:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dct:description "Café arábica tipo 6, bebida dura para melhor, bem preparado, com até 86 defeitos por amostra de 300 gramas; Indicador refere-se a negócios no mercado de lotes."^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dct:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
     dcat:title "INDICADOR DO CAFÉ ARÁBICA CEPEA/ESALQ"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/6324358/> ;
@@ -82,12 +82,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L83> a dcat:Dataset ;
     dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/cafe.aspx> ;
-    dcat:accrualPeriodicity "diário"^^xsd:string ;
-    dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
-    dcat:description "Café robusta tipo 6, peneira 13 cima, com 86 defeitos; Indicador refere-se a negócios no mercado de lotes."^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
-    dcat:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
+    dct:accrualPeriodicity "diário"^^xsd:string ;
+    dct:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dct:description "Café robusta tipo 6, peneira 13 cima, com 86 defeitos; Indicador refere-se a negócios no mercado de lotes."^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dct:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
     dcat:title "INDICADOR DO CAFÉ ROBUSTA CEPEA/ESALQ"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3448439/> ;
@@ -101,12 +101,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L102> a dcat:Dataset ;
     dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/soja.aspx> ;
-    dcat:accrualPeriodicity "diário"^^xsd:string ;
-    dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
-    dcat:description "Soja em grão a granel, tipo exportação, conforme padrão Concex: até 14% de umidade, até 2% de impurezas, e limites máximos de 8% para grãos avariados (até 5% de ardidos) e 30% de grãos quebrados; Indicador se refere a negócios no mercado de lotes (entre empresas); a retirar na empresa/armazém de venda; Estado do Paraná, dividido em cinco regiões: Paranaguá, Ponta Grossa, Norte,Oeste e Sudoeste."^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
-    dcat:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
+    dct:accrualPeriodicity "diário"^^xsd:string ;
+    dct:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dct:description "Soja em grão a granel, tipo exportação, conforme padrão Concex: até 14% de umidade, até 2% de impurezas, e limites máximos de 8% para grãos avariados (até 5% de ardidos) e 30% de grãos quebrados; Indicador se refere a negócios no mercado de lotes (entre empresas); a retirar na empresa/armazém de venda; Estado do Paraná, dividido em cinco regiões: Paranaguá, Ponta Grossa, Norte,Oeste e Sudoeste."^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dct:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
     dcat:title "INDICADOR DA SOJA CEPEA/ESALQ - PARANÁ"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3455077/> ;
@@ -120,12 +120,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L121> a dcat:Dataset ;
     dcat:accessURL <https://www.cepea.esalq.usp.br/br/indicador/soja.aspx> ;
-    dcat:accrualPeriodicity "diário"^^xsd:string ;
-    dcat:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
-    dcat:description "Soja brasileira em grão a granel tipo exportação. Produto posto no porto de Paranaguá, estado do Paraná, nas condições DAP (Delivered at Place) no pátio ou FAS (Free Alongside Ship) em armazéns/silos que efetuem carregamento de navios via corredor de exportação no porto de Paranaguá."^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
-    dcat:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
+    dct:accrualPeriodicity "diário"^^xsd:string ;
+    dct:creator "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dct:description "Soja brasileira em grão a granel tipo exportação. Produto posto no porto de Paranaguá, estado do Paraná, nas condições DAP (Delivered at Place) no pátio ou FAS (Free Alongside Ship) em armazéns/silos que efetuem carregamento de navios via corredor de exportação no porto de Paranaguá."^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Centro de Estudos Avançados em Economia Aplicada (Cepea)"^^xsd:string ;
+    dct:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
     dcat:title "INDICADOR DA SOJA ESALQ/BM&FBOVESPA - PARANAGUÁ"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/6322906/> ;
@@ -139,12 +139,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L140> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas."^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas."^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3408096/> ;
@@ -158,12 +158,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L159> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3665361/> ;
@@ -177,12 +177,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L178> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3471168/> ;
@@ -196,12 +196,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L197> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3402362/> ;
@@ -215,12 +215,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L216> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3463504/> ;
@@ -234,12 +234,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L235> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3463935/> ;
@@ -253,12 +253,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L254> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3462372/> ;
@@ -272,12 +272,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L273> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas."^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas."^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3395443/> ;
@@ -291,12 +291,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L292> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3457153/> ;
@@ -310,12 +310,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L311> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3457419/> ;
@@ -329,12 +329,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L330> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3393129/> ;
@@ -348,12 +348,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L349> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3393098/> ;
@@ -367,12 +367,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L368> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3392268/> ;
@@ -386,12 +386,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L387> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3392213/> ;
@@ -405,12 +405,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L406> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3390290/> ;
@@ -424,12 +424,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L425> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3924825/> ;
@@ -443,12 +443,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L444> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3662560/> ;
@@ -462,12 +462,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L463> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3451133/> ;
@@ -481,12 +481,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L482> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3447799/> ;
@@ -500,12 +500,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L501> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3448439/> ;
@@ -519,12 +519,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L520> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - açúcar cristal - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3474575/> ;
@@ -538,12 +538,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L539> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3665474/> ;
@@ -557,12 +557,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L558> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3408096/> ;
@@ -576,12 +576,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L577> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3471168/> ;
@@ -595,12 +595,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L596> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3402362/> ;
@@ -614,12 +614,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L615> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3463504/> ;
@@ -633,12 +633,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L634> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3463935/> ;
@@ -652,12 +652,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L653> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3462372/> ;
@@ -671,12 +671,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L672> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3457153/> ;
@@ -690,12 +690,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L691> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3457415/> ;
@@ -709,12 +709,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L710> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3457419/> ;
@@ -728,12 +728,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L729> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3393129/> ;
@@ -747,12 +747,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L748> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3393098/> ;
@@ -766,12 +766,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L767> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3392268/> ;
@@ -785,12 +785,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L786> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3455077/> ;
@@ -804,12 +804,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L805> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3451189/> ;
@@ -823,12 +823,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L824> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3390290/> ;
@@ -842,12 +842,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L843> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3447799/> ;
@@ -861,12 +861,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L862> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3448439/> ;
@@ -880,12 +880,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L881> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi gordo - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3474575/> ;
@@ -899,12 +899,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L900> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "semanal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "semanal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios semanais - boi magro - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3474575/> ;
@@ -918,12 +918,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L919> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3471168/> ;
@@ -937,12 +937,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L938> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3402362/> ;
@@ -956,12 +956,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L957> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3463504/> ;
@@ -975,12 +975,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L976> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3463935/> ;
@@ -994,12 +994,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L995> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3462372/> ;
@@ -1013,12 +1013,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L1014> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3457153/> ;
@@ -1032,12 +1032,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L1033> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3457415/> ;
@@ -1051,12 +1051,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L1052> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3455077/> ;
@@ -1070,12 +1070,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L1071> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3451189/> ;
@@ -1089,12 +1089,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L1090> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - café arábica tipo 6, bebida dura - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3448439/> ;
@@ -1108,12 +1108,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L1109> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - café conillon - produtor"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3665474/> ;
@@ -1127,12 +1127,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L1128> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - soja em grãos - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3457419/> ;
@@ -1146,12 +1146,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L1147> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - soja em grãos - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3455077/> ;
@@ -1165,12 +1165,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L1166> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - soja em grãos - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3451133/> ;
@@ -1184,12 +1184,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L1185> a dcat:Dataset ;
     dcat:accessURL <https://sisdep.conab.gov.br/precosiagroweb/> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:description "nan"^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
-    dcat:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
-    dcat:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:description "nan"^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dct:publisher "Companhia Nacional de Abastecimento (Conab)"^^xsd:string ;
+    dct:rights "As informações podem ser reproduzidas, desde que citada a fonte. Proibida a comercialização das informações disponibilizadas"^^xsd:string ;
     dcat:title "Preços médios mensais - soja em grãos - atacado"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3450387/> ;
@@ -1203,12 +1203,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L1204> a dcat:Dataset ;
     dcat:accessURL <http://www.ipeadata.gov.br/Default.aspx> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
-    dcat:description " O indicador de consumo aparente corresponde à produção doméstica acrescida das importações e diminuída das exportações. Os setores foram desagregados de acordo com a Classificação Nacional de Atividades Econômicas CNAE 2.0. Neste caso, considerou-se o setor responsável pela produção dos bens que compreendem o curtimento e outras preparações de couros e peles e a fabricação de artefatos de couro, a fabricação de substitutos do couro, a fabricação de bolsas e de artigos para viagem de qualquer material. Base é o valor, num determinado momento ( efetivo ou resultante da média tomada dentro de um intervalo de tempo) que serve de termo de comparação, quando se quer calcular uma sucessão de números-índices. Aqui a base foi fixada como a média das observações no ano de 2012. Nota: As atualizações podem gerar alterações em dados anteriores. Mais informações: Indicadores de Consumo Aparente de Bens Industriais: metodologia e resultados; CNAE 2.0 e Rodrigues, Dicionário Brasileiro de Estatística, 2ª edição, Fundação IBGE, 1970."^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcat:publisher "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
-    dcat:rights "Os dados disponibilizados no Ipeadata são de uso público. É permitida sua reprodução e utilização em tabelas, gráficos, mapas e textos, desde que o Ipeadata seja citado, inclusive nas referências bibliográficas."^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dct:description " O indicador de consumo aparente corresponde à produção doméstica acrescida das importações e diminuída das exportações. Os setores foram desagregados de acordo com a Classificação Nacional de Atividades Econômicas CNAE 2.0. Neste caso, considerou-se o setor responsável pela produção dos bens que compreendem o curtimento e outras preparações de couros e peles e a fabricação de artefatos de couro, a fabricação de substitutos do couro, a fabricação de bolsas e de artigos para viagem de qualquer material. Base é o valor, num determinado momento ( efetivo ou resultante da média tomada dentro de um intervalo de tempo) que serve de termo de comparação, quando se quer calcular uma sucessão de números-índices. Aqui a base foi fixada como a média das observações no ano de 2012. Nota: As atualizações podem gerar alterações em dados anteriores. Mais informações: Indicadores de Consumo Aparente de Bens Industriais: metodologia e resultados; CNAE 2.0 e Rodrigues, Dicionário Brasileiro de Estatística, 2ª edição, Fundação IBGE, 1970."^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dct:rights "Os dados disponibilizados no Ipeadata são de uso público. É permitida sua reprodução e utilização em tabelas, gráficos, mapas e textos, desde que o Ipeadata seja citado, inclusive nas referências bibliográficas."^^xsd:string ;
     dcat:title "Consumo aparente - couros e de artefatos de couro, artigos para viagem e calçados: índice real encadeado (média 2012 = 100) (GAC12_CACOU12)"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3469034/> ;
@@ -1222,12 +1222,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L1223> a dcat:Dataset ;
     dcat:accessURL <http://www.ipeadata.gov.br/Default.aspx> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
-    dcat:description "O indicador de consumo aparente corresponde à produção doméstica acrescida das importações e diminuída das exportações. Os setores foram desagregados de acordo com a Classificação Nacional de Atividades Econômicas CNAE 2.0. Neste caso, considerou-se o setor responsável pela produção dos bens que compreendem a fabricação de cigarros, cigarrilhas e outros derivados do fumo Base é o valor, num determinado momento ( efetivo ou resultante da média tomada dentro de um intervalo de tempo) que serve de termo de comparação, quando se quer calcular uma sucessão de números-índices. Aqui a base foi fixada como a média das observações no ano de 2012. Nota: As atualizações podem gerar alterações em dados anteriores. Mais informações: Indicadores de Consumo Aparente de Bens Industriais: metodologia e resultados; CNAE 2.0 e Rodrigues, Dicionário Brasileiro de Estatística, 2ª edição, Fundação IBGE, 1970."^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcat:publisher "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
-    dcat:rights "Os dados disponibilizados no Ipeadata são de uso público. É permitida sua reprodução e utilização em tabelas, gráficos, mapas e textos, desde que o Ipeadata seja citado, inclusive nas referências bibliográficas."^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dct:description "O indicador de consumo aparente corresponde à produção doméstica acrescida das importações e diminuída das exportações. Os setores foram desagregados de acordo com a Classificação Nacional de Atividades Econômicas CNAE 2.0. Neste caso, considerou-se o setor responsável pela produção dos bens que compreendem a fabricação de cigarros, cigarrilhas e outros derivados do fumo Base é o valor, num determinado momento ( efetivo ou resultante da média tomada dentro de um intervalo de tempo) que serve de termo de comparação, quando se quer calcular uma sucessão de números-índices. Aqui a base foi fixada como a média das observações no ano de 2012. Nota: As atualizações podem gerar alterações em dados anteriores. Mais informações: Indicadores de Consumo Aparente de Bens Industriais: metodologia e resultados; CNAE 2.0 e Rodrigues, Dicionário Brasileiro de Estatística, 2ª edição, Fundação IBGE, 1970."^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dct:rights "Os dados disponibilizados no Ipeadata são de uso público. É permitida sua reprodução e utilização em tabelas, gráficos, mapas e textos, desde que o Ipeadata seja citado, inclusive nas referências bibliográficas."^^xsd:string ;
     dcat:title "Consumo aparente - produtos de fumo: índice real encadeado (média 2012 = 100) (GAC12_CAFUM12)"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3469034/> ;
@@ -1241,12 +1241,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L1242> a dcat:Dataset ;
     dcat:accessURL <http://www.ipeadata.gov.br/Default.aspx> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
-    dcat:description "O indicador de consumo aparente corresponde à produção doméstica acrescida das importações e diminuída das exportações. Os setores foram desagregados de acordo com a Classificação Nacional de Atividades Econômicas CNAE 2.0. Neste caso, considerou-se o setor responsável pela produção dos bens que compreendem a fabricação de madeira serrada, laminada, compensada, prensada e aglomerada e de produtos de madeira para construção, para embalagem, para uso industrial, comercial e doméstico. Base é o valor, num determinado momento ( efetivo ou resultante da média tomada dentro de um intervalo de tempo) que serve de termo de comparação, quando se quer calcular uma sucessão de números-índices. Aqui a base foi fixada como a média das observações no ano de 2012. Nota: As atualizações podem gerar alterações em dados anteriores. Mais informações: Indicadores de Consumo Aparente de Bens Industriais: metodologia e resultados; CNAE 2.0 e Rodrigues, Dicionário Brasileiro de Estatística, 2ª edição, Fundação IBGE, 1970."^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcat:publisher "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
-    dcat:rights "Os dados disponibilizados no Ipeadata são de uso público. É permitida sua reprodução e utilização em tabelas, gráficos, mapas e textos, desde que o Ipeadata seja citado, inclusive nas referências bibliográficas."^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dct:description "O indicador de consumo aparente corresponde à produção doméstica acrescida das importações e diminuída das exportações. Os setores foram desagregados de acordo com a Classificação Nacional de Atividades Econômicas CNAE 2.0. Neste caso, considerou-se o setor responsável pela produção dos bens que compreendem a fabricação de madeira serrada, laminada, compensada, prensada e aglomerada e de produtos de madeira para construção, para embalagem, para uso industrial, comercial e doméstico. Base é o valor, num determinado momento ( efetivo ou resultante da média tomada dentro de um intervalo de tempo) que serve de termo de comparação, quando se quer calcular uma sucessão de números-índices. Aqui a base foi fixada como a média das observações no ano de 2012. Nota: As atualizações podem gerar alterações em dados anteriores. Mais informações: Indicadores de Consumo Aparente de Bens Industriais: metodologia e resultados; CNAE 2.0 e Rodrigues, Dicionário Brasileiro de Estatística, 2ª edição, Fundação IBGE, 1970."^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dct:rights "Os dados disponibilizados no Ipeadata são de uso público. É permitida sua reprodução e utilização em tabelas, gráficos, mapas e textos, desde que o Ipeadata seja citado, inclusive nas referências bibliográficas."^^xsd:string ;
     dcat:title "Consumo aparente - produtos de madeira: índice real encadeado (média 2012 = 100) (GAC12_CAMAD12)"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3469034/> ;
@@ -1260,12 +1260,12 @@
 
 <https://github.com/Filipi-Soares/MetaID/blob/main/ID.ttl#L1261> a dcat:Dataset ;
     dcat:accessURL <http://www.ipeadata.gov.br/Default.aspx> ;
-    dcat:accrualPeriodicity "mensal"^^xsd:string ;
-    dcat:creator "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
-    dcat:description "O indicador de consumo aparente corresponde à produção doméstica acrescida das importações e diminuída das exportações. Os setores foram desagregados de acordo com a Classificação Nacional de Atividades Econômicas CNAE 2.0. Neste caso, considerou-se o setor responsável pela produção dos bens que compreendem a fabricação de polpa, papel, papel-cartão e papelão e de produtos fabricados com papel, papel-cartão ou papelão ondulado, mesmo impressos, desde que a impressão de informação não seja a finalidade principal do produto. Base é o valor, num determinado momento ( efetivo ou resultante da média tomada dentro de um intervalo de tempo) que serve de termo de comparação, quando se quer calcular uma sucessão de números-índices. Aqui a base foi fixada como a média das observações no ano de 2012. Nota: As atualizações podem gerar alterações em dados anteriores. Mais informações: Indicadores de Consumo Aparente de Bens Industriais: metodologia e resultados; CNAE 2.0 e Rodrigues, Dicionário Brasileiro de Estatística, 2ª edição, Fundação IBGE, 1970."^^xsd:string ;
-    dcat:license <https://creativecommons.org/licenses/by/4.0/> ;
-    dcat:publisher "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
-    dcat:rights "Os dados disponibilizados no Ipeadata são de uso público. É permitida sua reprodução e utilização em tabelas, gráficos, mapas e textos, desde que o Ipeadata seja citado, inclusive nas referências bibliográficas."^^xsd:string ;
+    dct:accrualPeriodicity "mensal"^^xsd:string ;
+    dct:creator "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dct:description "O indicador de consumo aparente corresponde à produção doméstica acrescida das importações e diminuída das exportações. Os setores foram desagregados de acordo com a Classificação Nacional de Atividades Econômicas CNAE 2.0. Neste caso, considerou-se o setor responsável pela produção dos bens que compreendem a fabricação de polpa, papel, papel-cartão e papelão e de produtos fabricados com papel, papel-cartão ou papelão ondulado, mesmo impressos, desde que a impressão de informação não seja a finalidade principal do produto. Base é o valor, num determinado momento ( efetivo ou resultante da média tomada dentro de um intervalo de tempo) que serve de termo de comparação, quando se quer calcular uma sucessão de números-índices. Aqui a base foi fixada como a média das observações no ano de 2012. Nota: As atualizações podem gerar alterações em dados anteriores. Mais informações: Indicadores de Consumo Aparente de Bens Industriais: metodologia e resultados; CNAE 2.0 e Rodrigues, Dicionário Brasileiro de Estatística, 2ª edição, Fundação IBGE, 1970."^^xsd:string ;
+    dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dct:publisher "Instituto de Pesquisa Econômica Aplicada (Ipea)"^^xsd:string ;
+    dct:rights "Os dados disponibilizados no Ipeadata são de uso público. É permitida sua reprodução e utilização em tabelas, gráficos, mapas e textos, desde que o Ipeadata seja citado, inclusive nas referências bibliográficas."^^xsd:string ;
     dcat:title "Consumo aparente - celulose, papel e produtos de papel: índice real encadeado (média 2012 = 100) (GAC12_CAPAPEL12)"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
     sdo:location <http://sws.geonames.org/3469034/> ;
@@ -1371,7 +1371,7 @@
 
 <http://sws.geonames.org/3463504/> a gn:Feature ;
     gn:geonamesID <http://sws.geonames.org/3463504/> ;
-    gn:name "Federal District"^^xsd:string .
+    gn:name "Distrito Federal"^^xsd:string .
 
 <http://sws.geonames.org/3463935/> a gn:Feature ;
     gn:geonamesID <http://sws.geonames.org/3463935/> ;

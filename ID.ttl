@@ -33,7 +33,7 @@
     dct:rights "O Cepea não se responsabiliza por decisões tomadas a partir do conteúdo que divulga. Uso dos dados livre para fins não-comerciais"^^xsd:string ;
     dcat:title "INDICADOR AÇÚCAR CRISTAL BRANCO CEPEA/ESALQ - SÃO PAULO"^^xsd:string ;
     sdo:endDate "nan"^^xsd:date ;
-    sdo:location <http://sws.geonames.org/6324358/> ;
+    sdo:location <http://sws.geonames.org/3448439/> ;
     sdo:referenceQuantity "sc/50kg"^^xsd:string ;
     sdo:startDate "2003-05-20"^^xsd:date ;
     alm:descriptiveStatistics "série temporal"^^xsd:string ;
